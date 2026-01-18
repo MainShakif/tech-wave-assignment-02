@@ -1,5 +1,29 @@
-/* Small device: upto 576 px 
+/* Small device: up to 576 px  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
 
-Medium Device: 576px to 992 px (Optional) 
+  #nav_links,
+  .btn_primary {
+    display: none;
+  }
+}
 
-Large Device: above 993 px  */
+/* Medium Device: 576px to 992 px (Optional)  */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  #hamburger_icon {
+    display: none;
+  }
+}
+/* Large Device: above 993 px  */
+@media screen and (min-width: 993px) {
+  #hamburger_icon {
+    display: none;
+  }
+}
