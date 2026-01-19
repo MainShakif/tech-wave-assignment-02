@@ -44,6 +44,9 @@ body {
 }
 /* shared styles end*/
 
+header {
+  background-color: #1a0b2e;
+}
 /* navbar design */
 #nav_container {
   padding: 20px 0;
@@ -91,11 +94,11 @@ body {
   margin: 0 auto;
   position: relative;
 } */
-#banner_image {
+/* #banner_image {
   position: relative;
   display: inline-block;
   margin-bottom: 20px;
-}
+} */
 /* #circle {
   width: 450px;
   border: 8px solid #2a186c;
