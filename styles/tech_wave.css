@@ -8,8 +8,10 @@
 }
 body {
   border: 4px dashed blueviolet;
-} */
-/* Google Font : Inter */
+}
+*/
+*/
+/* Google Font : Inter
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
@@ -35,7 +37,9 @@ body {
   font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
+  text-transform: capitalize;
   margin-bottom: 16px;
+  text-align: center;
 }
 .description {
   font-size: 1rem;
@@ -50,11 +54,11 @@ header {
   background-color: #1a0b2e;
 }
 /* navbar design */
-#navbar {
+#nav_container {
   padding: 20px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #nav_links {
@@ -153,8 +157,14 @@ header {
   justify-content: center;
 } */
 
+/* main  */
+main > section {
+  .container {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
 /* podcast design */
-
 #podcast_Container {
   background-color: #1a0b2e;
   padding-top: 50px;
@@ -177,7 +187,6 @@ header {
   width: 1200px;
   margin-bottom: 80px;
 }
-
 #sub_title {
   font-size: 1rem;
   font-weight: 500;
@@ -190,4 +199,40 @@ header {
   font-size: 3rem;
   font-weight: 600;
   color: #00ff88;
+}
+
+/* tech wave design */
+#tech_wave {
+  background-color: #230e3d;
+  padding: 120px 0;
+}
+#tech_wave_cards_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 30px;
+}
+.tech_wave_card {
+  color: #ffffff;
+  background-color: rgba(53, 17, 101, 0.4);
+  padding: 25px;
+  border-radius: 40px;
+}
+.tech_wave_card img {
+  margin-bottom: 30px;
+  width: 50px;
+}
+.tech_wave_card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.row_span {
+  grid-row: span 2;
+  align-content: center;
+}
+
+.col_span {
+  grid-column: span 2;
 }
