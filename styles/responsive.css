@@ -4,26 +4,83 @@
     width: 90%;
     margin: 0 auto;
   }
-
+  .description {
+    font-size: 0.75rem;
+    line-height: 20px;
+  }
   #nav_links,
-  .btn_primary {
+  .nav_btn {
     display: none;
   }
-}
+  #banner_section {
+    display: flex;
+    flex-direction: column;
+  }
+  /* #circle {
+    width: 100%;
+  } */
+  #banner_content {
+    padding: 10px;
+  }
+  #banner_content_title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  #btn_group .btn_primary,
+  #btn_group #btn_green {
+    font-size: 1rem;
+  }
 
+  #podcast_content {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  #podcast_stats {
+    margin-top: 40px;
+  }
+  #stats_cards_container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .stat_card .number {
+    font-size: 2rem;
+  }
+}
 /* Medium Device: 576px to 992 px (Optional)  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
   .container {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
   #hamburger_icon {
     display: none;
+  }
+  #podcast_content {
+    padding: 0 20px;
+    width: 100%;
+  }
+  #stats_cards_container {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
   }
 }
 /* Large Device: above 993 px  */
 @media screen and (min-width: 993px) {
   #hamburger_icon {
     display: none;
+  }
+
+  #podcast_content {
+    width: 100%;
+  }
+  #stats_cards_container {
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 60px;
   }
 }
