@@ -42,7 +42,9 @@
   #btn_group #btn_green {
     font-size: 1rem;
   }
-
+  #featured {
+    padding-bottom: 40px;
+  }
   #podcast_content {
     width: 100%;
     margin-bottom: 40px;
@@ -105,6 +107,17 @@
   }
   .heading {
     margin-bottom: 6px;
+  }
+  #footer_contents {
+    text-align: center;
+    padding: 20px;
+  }
+  #footer_image img {
+    width: 100%;
+  }
+  #footer_icons {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 /* Medium Device: 576px to 992 px (Optional)  */
