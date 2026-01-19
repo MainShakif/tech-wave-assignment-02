@@ -26,6 +26,13 @@ body {
   border-radius: 1000px;
   background: linear-gradient(to left, rgba(251, 9, 180, 1), #9100f8, #f7e93f);
   cursor: pointer;
+  transition:
+    transform 1s ease-in 0.1s,
+    margin-right 0.2s ease-in-out 0.2s;
+}
+.btn_primary:hover {
+  transform: scale(1.25);
+  margin-right: 30px;
 }
 .heading {
   font-size: 3rem;
@@ -149,6 +156,14 @@ header {
   padding: 12px 20px;
   border-radius: 1000px;
   cursor: pointer;
+  transition:
+    transform 1s ease-in 1s,
+    background-color 0.6s ease-in 0.1s;
+}
+
+#btn_green:hover {
+  transform: rotate(360deg);
+  background-color: #9100f8;
 }
 #btn_group {
   display: flex;
