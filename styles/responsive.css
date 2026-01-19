@@ -1,13 +1,13 @@
 /* Small device: up to 576 px  */
 @media screen and (max-width: 576px) {
   .container {
-    width: 97%;
+    width: 90%;
     margin: 0 auto;
   }
   main > section {
     .container {
       margin: 0 auto;
-      width: 97%;
+      width: 90%;
     }
   }
   br {
@@ -153,7 +153,7 @@
   main > section {
     .container {
       margin: 0 auto;
-      width: 97%;
+      width: 95%;
     }
   }
   #hamburger_icon {
