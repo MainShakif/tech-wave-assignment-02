@@ -236,3 +236,39 @@ main > section {
 .col_span {
   grid-column: span 2;
 }
+/* featured design */
+#featured {
+  background-color: #1a0b2e;
+}
+
+#podcast_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.podcast_card {
+  color: #ffffff;
+  border-radius: 1000px;
+}
+.podcast_card iframe {
+  margin-bottom: 16px;
+  width: 100%;
+}
+.podcast_card h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 29px;
+}
+#podcast_card_footer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#podcast_card_footer span {
+  color: #00ff88;
+  font-size: 1rem;
+  font-weight: 600;
+}
+/* host design */
