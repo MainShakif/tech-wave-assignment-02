@@ -26,17 +26,15 @@
     display: none;
   }
   /** banner */
+  #banner {
+    padding-top: 40px;
+  }
+
   #banner_section {
     display: flex;
     flex-direction: column;
     max-width: 100%;
   }
-  /* #banner {
-    width: 100%;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center;
-  } */
   #banner_content {
     padding: 10px;
   }
@@ -60,12 +58,17 @@
   #btn_group #btn_green {
     font-size: 1rem;
   }
+
   #featured {
     padding-bottom: 40px;
+  }
+  #featured_container {
+    padding-top: 40px;
   }
   #podcast_content {
     width: 100%;
     margin-bottom: 40px;
+    padding-top: 80px;
   }
   .heading {
     font-size: 1.75rem;
