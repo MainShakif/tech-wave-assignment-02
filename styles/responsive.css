@@ -142,6 +142,11 @@
   .heading {
     margin-bottom: 6px;
   }
+  /** footer */
+
+  footer {
+    background-size: 100% 100%;
+  }
 
   #footer_contents {
     text-align: center;
@@ -155,8 +160,9 @@
     /* gap: 6px; */
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
+    border: none;
   }
+
   #copyright_msg {
     font-size: 0.65rem;
   }
