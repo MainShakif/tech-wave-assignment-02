@@ -48,9 +48,11 @@
   #microphone {
     width: 16%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 31%;
+    left: 42%;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
   }
   #sub_title {
     font-size: 0.75rem;

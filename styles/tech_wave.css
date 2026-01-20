@@ -98,22 +98,6 @@ header {
   align-items: center;
   justify-content: center;
   padding-top: 80px;
-
-  animation:
-    rotate 2.5s ease-out 1s,
-    transform 1.8s ease-out 1s;
-}
-
-@keyframes rotate {
-  0% {
-    opacity: 0;
-    transform: translateY(15px) rotate(-90deg);
-  }
-
-  100% {
-    opacity: 2;
-    transform: translateY(0) rotate(0);
-  }
 }
 
 #banner_section {
@@ -140,10 +124,32 @@ header {
 #microphone {
   width: 116px;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* top: 50%;
+  left: 50%; */
+  top: 31%;
+  left: 38%;
+  animation:
+    rotate 2.5s ease-out 1s,
+    transform 1.8s ease-out 1s,
+    background-color 1.2s ease-out 1s,
+    border-radius 0.03s;
 }
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translateY(15px) rotate(-360deg);
+    background-color: #9100f8;
+  }
+
+  100% {
+    opacity: 2;
+    transform: translateY(0) rotate(0);
+    background-color: #2a186c;
+    border-radius: 20px;
+  }
+}
+
 #banner_content {
   text-align: center;
   padding: 32px;
