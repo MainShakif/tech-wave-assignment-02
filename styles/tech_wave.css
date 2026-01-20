@@ -8,10 +8,12 @@
 }
 body {
   border: 4px dashed blueviolet;
+} */
+/* Google Font : Inter  */
+.inter_font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
-*/
-*/
-/* Google Font : Inter*/
 
 /* shared styles */
 .container {
@@ -32,11 +34,11 @@ body {
     box-shadow 0.2s ease;
 }
 .btn_primary:hover {
-  transform: translateY(-1px);
+  transform: translateY(4px);
   box-shadow: 0 10px 20px rgb(251, 9, 180);
 }
 .btn_primary:active {
-  transform: translateY(-4px);
+  transform: translateY(1px);
 }
 .heading {
   font-size: 3rem;
@@ -189,12 +191,12 @@ header {
 }
 
 #btn_green:hover {
-  transform: translateY(-1px);
+  transform: translateY(4px);
   box-shadow: 0 10px 20px rgb(0, 255, 136);
 }
 
 #btn_green:active {
-  transform: translateY(-4px);
+  transform: translateY(1px);
 }
 #btn_group {
   display: flex;
@@ -381,26 +383,26 @@ footer {
   align-items: center;
   padding: 120px;
 }
-
 #footer_icons {
   display: flex;
-  gap: 25px;
-  color: #ffffff;
-  margin-bottom: 32px;
-  padding-bottom: 50px;
+  gap: 8px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #2a186c;
 }
 
-#footer_icon {
+.footer_icon {
   display: flex;
-  gap: 8px;
+  gap: 10px;
+  color: #ffffff;
+  margin-bottom: 32px;
 }
 
 #footer_image img {
   margin-bottom: 32px;
-  width: 510px;
+  width: 410px;
 }
 
 #copyright_msg {
   color: #ffffff;
+  margin-top: 20px;
 }
