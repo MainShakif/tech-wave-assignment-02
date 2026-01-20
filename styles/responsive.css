@@ -143,21 +143,22 @@
     margin-bottom: 6px;
   }
 
-  #footer_section {
-    overflow: hidden;
-    object-fit: cover;
-  }
-
   #footer_contents {
     text-align: center;
     padding: 20px;
   }
   #footer_image img {
-    width: 70%;
+    width: 60%;
+    margin-bottom: 20px;
   }
   #footer_icons {
+    gap: 4px;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  #copyright_msg {
+    font-size: 0.65rem;
   }
 }
 /* Medium Device: 576px to 992 px (Optional)  */
@@ -231,7 +232,6 @@
   #stats_cards_container {
     width: 100%;
     grid-template-columns: repeat(4, 1fr);
-    /* place-items: center; */
     gap: 60px;
   }
 

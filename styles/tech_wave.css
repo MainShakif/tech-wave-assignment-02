@@ -398,11 +398,12 @@ footer {
 }
 
 #footer_image img {
-  margin-bottom: 32px;
+  margin-bottom: 63px;
   width: 410px;
 }
 
 #copyright_msg {
+  font-size: 1rem;
   color: #ffffff;
   margin-top: 20px;
 }
