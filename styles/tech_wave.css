@@ -97,9 +97,25 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
   padding-top: 80px;
+
+  animation:
+    rotate 2.5s ease-out 1s,
+    transform 1.8s ease-out 1s;
 }
+
+@keyframes rotate {
+  0% {
+    opacity: 0;
+    transform: translateY(15px) rotate(-90deg);
+  }
+
+  100% {
+    opacity: 2;
+    transform: translateY(0) rotate(0);
+  }
+}
+
 #banner_section {
   text-align: center;
   /* border-top: 1px solid rgba(65, 37, 103, 0.4); */
@@ -120,6 +136,7 @@ header {
   border-radius: 50%;
   /* padding-top: 50px; */
 }
+
 #microphone {
   width: 116px;
   position: absolute;
