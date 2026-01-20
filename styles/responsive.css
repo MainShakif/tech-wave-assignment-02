@@ -25,6 +25,9 @@
   .nav_btn {
     display: none;
   }
+  #brand_name {
+    width: 50%;
+  }
   /** banner */
   #banner {
     padding-top: 40px;
